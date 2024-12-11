@@ -101,7 +101,7 @@ const forgotPassword = async (req, res) => {
            <p>Dear ${user.firstName} ${user.lastName},</p>
         <p>We received a request to reset your password. Here is your One-Time Password (OTP): <strong>${OTP}</strong></p>
         <p>Please click the following link to reset your password:</p>
-       <a href="http://localhost:5173/reset-password"> click this link to change password http://localhost:5173/reset-password</a>
+       <a href="https://github122.netlify.app/reset-password"> click this link to change password https://github122.netlify.app/reset-password</a>
         <p>If you did not make this request, please ignore this email.</p>
         <p>Thank you,</p>
         <p>From Validation</p>
